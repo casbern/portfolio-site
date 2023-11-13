@@ -1,0 +1,78 @@
+.wrapper {
+	max-width: 90rem;
+	margin: 0 auto;
+	/* padding: 0 1rem; */
+}
+
+.hero {
+	width: 100%;
+	padding: 2rem;
+
+	text-align: center;
+}
+
+.hero img {
+	width: 31rem;
+}
+
+.heroInfo h1 {
+	color: var(--blue-200);
+	font-family: "Montserrat", sans-serif;
+	font-size: 3.2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	margin-bottom: 2.4rem;
+}
+
+.heroInfo p {
+	color: var(--gray-200);
+	font-weight: 400;
+	line-height: 2.6rem;
+}
+
+.button {
+	background-color: var(--pink-200);
+	padding: 1.2rem 3.2rem;
+	border-radius: 32px;
+	display: inline-block;
+
+	margin: 3.6rem 0;
+
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #cb7ea4;
+}
+
+.button a {
+	text-decoration: none;
+	color: var(--white);
+	font-weight: 400;
+}
+
+@media (min-width: 1024px) {
+	.hero {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		flex-direction: row-reverse;
+
+		text-align: left;
+	}
+
+	.hero h1 {
+		font-size: 3.2rem;
+	}
+
+	.hero img {
+		width: 45rem;
+	}
+
+	button {
+		font-size: 2.4rem;
+	}
+}
