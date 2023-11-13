@@ -60,12 +60,39 @@ function App() {
 				</Session>
 
 				<Session title="Projects">
-					<Card
-						title="Food Explorer"
-						content="This is a restaurant app using React, Express, Styled-components, SQLite, CSS, HTML, JavaScript."
-						link="https://rocketseat-foodexplorer.netlify.app/"
-						github="https://github.com/cah90/foodexplorer-frontend"
-					/>
+					<div className={styles.cardsContainer}>
+						<Card
+							color="var(--pink-100)"
+							title="Food Explorer"
+							content="This is a restaurant app using React, Express, Styled-components, SQLite, CSS, HTML, JavaScript."
+							link="https://rocketseat-foodexplorer.netlify.app/"
+							github="https://github.com/cah90/foodexplorer-frontend"
+						/>
+
+						<Card
+							color="var(--blue-100)"
+							title="Molehill Garden"
+							content="This is a project using only HTML and CSS to exercise animation and keyframe."
+							link="https://cah90.github.io/explorer-stage3-jardimToupeiras/"
+							github="https://github.com/cah90/explorer-stage3-jardimToupeiras"
+						/>
+
+						<Card
+							color="var(--pink-100)"
+							title="Food Explorer"
+							content="This is a restaurant app using React, Express, Styled-components, SQLite, CSS, HTML, JavaScript."
+							link="https://rocketseat-foodexplorer.netlify.app/"
+							github="https://github.com/cah90/foodexplorer-frontend"
+						/>
+
+						<Card
+							color="var(--blue-100)"
+							title="Molehill Garden"
+							content="This is a project using only HTML and CSS to exercise animation and keyframe."
+							link="https://cah90.github.io/explorer-stage3-jardimToupeiras/"
+							github="https://github.com/cah90/explorer-stage3-jardimToupeiras"
+						/>
+					</div>
 				</Session>
 			</div>
 		</>

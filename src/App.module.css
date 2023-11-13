@@ -1,7 +1,6 @@
 .wrapper {
 	max-width: 90rem;
 	margin: 0 auto;
-	/* padding: 0 1rem; */
 }
 
 .hero {
@@ -51,6 +50,14 @@
 	text-decoration: none;
 	color: var(--white);
 	font-weight: 400;
+}
+
+@media (min-width: 768px) {
+	.cardsContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
 }
 
 @media (min-width: 1024px) {

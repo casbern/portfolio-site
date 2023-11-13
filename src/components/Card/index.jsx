@@ -1,10 +1,8 @@
 import styles from "./Card.module.css"
 
-export function Card({ title, content, link, github }) {
-	const colors = ["#E09AD6", "#A2D9E6", "#BE5E8E", "#9E6ECA"]
-
+export function Card({ title, content, link, github, color }) {
 	return (
-		<div className={styles.card}>
+		<div className={styles.cards} style={{ backgroundColor: color }}>
 			<h1>{title}</h1>
 			<p>{content}</p>
 			<div className={styles.links}>
