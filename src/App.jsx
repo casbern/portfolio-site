@@ -1,6 +1,9 @@
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
+
 import { Header } from "./components/Header"
 import { Session } from "./components/Session"
 import { Card } from "./components/Card"
+import { Footer } from "./components/Footer"
 
 import image from "./assets/girl-coding.png"
 
@@ -62,7 +65,7 @@ function App() {
 				<Session title="Projects">
 					<div className={styles.cardsContainer}>
 						<Card
-							color="var(--pink-100)"
+							color="var(--pink-200)"
 							title="Food Explorer"
 							content="This is a restaurant app using React, Express, Styled-components, SQLite, CSS, HTML, JavaScript."
 							link="https://rocketseat-foodexplorer.netlify.app/"
@@ -70,7 +73,7 @@ function App() {
 						/>
 
 						<Card
-							color="var(--blue-100)"
+							color="var(--blue-200)"
 							title="Molehill Garden"
 							content="This is a project using only HTML and CSS to exercise animation and keyframe."
 							link="https://cah90.github.io/explorer-stage3-jardimToupeiras/"
@@ -78,7 +81,7 @@ function App() {
 						/>
 
 						<Card
-							color="var(--pink-100)"
+							color="var(--lilac)"
 							title="Food Explorer"
 							content="This is a restaurant app using React, Express, Styled-components, SQLite, CSS, HTML, JavaScript."
 							link="https://rocketseat-foodexplorer.netlify.app/"
@@ -86,7 +89,7 @@ function App() {
 						/>
 
 						<Card
-							color="var(--blue-100)"
+							color="var(--pink-200)"
 							title="Molehill Garden"
 							content="This is a project using only HTML and CSS to exercise animation and keyframe."
 							link="https://cah90.github.io/explorer-stage3-jardimToupeiras/"
@@ -94,7 +97,48 @@ function App() {
 						/>
 					</div>
 				</Session>
+
+				<Session title="Contact me">
+					<div className={styles.contact}>
+						<div className={styles.contactInfo}>
+							<p>
+								Reach out! Send me a message, I will answer as fast as possible.
+							</p>
+							<p>Check also my linkedin and github page!</p>
+
+							<div className={styles.links}>
+								<a
+									href="https://www.linkedin.com/in/cassiabernardodev/"
+									target="_blank"
+								>
+									<FaLinkedin />
+								</a>
+
+								<a href="https://www.github.com/cah90" target="_blank">
+									<FaGithubSquare />
+								</a>
+							</div>
+						</div>
+
+						<form className={styles.form} action="#">
+							<div className={styles.formInfo}>
+								<label>Name</label>
+								<input type="text" placeholder="John Doe" />
+
+								<label>Email</label>
+								<input type="email" placeholder="example@gmail.com" />
+							</div>
+
+							<label>Message</label>
+							<textarea placeholder="Enter your message here"></textarea>
+
+							<button type="submit">Send</button>
+						</form>
+					</div>
+				</Session>
 			</div>
+
+			<Footer content="All rights reserved • Made with ♡ by Cássia Bernardo." />
 		</>
 	)
 }

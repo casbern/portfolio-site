@@ -48,4 +48,8 @@
 		display: flex;
 		flex-wrap: wrap;
 	}
+
+	.links a:hover {
+		font-weight: bold;
+	}
 }
