@@ -43,3 +43,9 @@ button {
 	font-weight: 400;
 	font-size: 1.6rem;
 }
+
+a,
+button {
+	-webkit-tap-highlight-color: transparent;
+	tap-highlight-color: transparent;
+}

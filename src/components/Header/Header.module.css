@@ -4,55 +4,11 @@
 	justify-content: space-between;
 	align-items: center;
 
-	padding: 3.2rem;
-}
-
-.header strong {
-	color: var(--pink-200);
-	font-family: "Montserrat", sans-serif;
-	font-size: 1.6rem;
-	font-weight: 700;
-	font-style: normal;
-	line-height: normal;
-}
-
-.header svg {
-	color: var(--black);
-}
-
-nav {
-	display: none;
+	padding: 3rem 2rem;
 }
 
 @media (min-width: 1024px) {
 	.header {
 		padding: 5.4rem;
-	}
-
-	.header strong {
-		font-size: 2.4rem;
-	}
-
-	.header svg {
-		display: none;
-	}
-
-	nav {
-		display: initial;
-	}
-
-	nav ul li {
-		display: inline;
-		margin-right: 6.4rem;
-	}
-
-	nav ul li a {
-		text-decoration: none;
-		color: var(--black);
-	}
-
-	nav ul li a:hover {
-		color: var(--pink-200);
-		border-bottom: 1px solid var(--pink-200);
 	}
 }
