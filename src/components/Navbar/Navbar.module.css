@@ -80,7 +80,7 @@
 	text-decoration: underline;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 	.burguerIcon {
 		display: none;
 	}
@@ -97,7 +97,7 @@
 
 	.navigationMenu ul li {
 		list-style-type: none;
-		margin-left: 6.4rem;
+		margin-left: 4.4rem;
 	}
 
 	.navigationMenu ul li a {
@@ -105,7 +105,7 @@
 		color: var(--black);
 
 		font-family: "Roboto", sans-serif;
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 		font-style: normal;
 		font-weight: 400;
 		line-height: normal;
@@ -117,6 +117,16 @@
 	}
 
 	.brandName {
-		font-size: 2.4rem;
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.navigationMenu ul li {
+		margin-left: 6.4rem;
+	}
+
+	.navigationMenu ul li a {
+		font-size: 1.6rem;
 	}
 }

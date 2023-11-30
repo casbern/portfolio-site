@@ -38,17 +38,17 @@ export function Navbar() {
 			>
 				<ul>
 					<li>
-						<a href="#work" onClick={() => setIsNavExpanded(!isNavExpanded)}>
-							WORK
+						<a href="#work" onClick={() => setIsNavExpanded(false)}>
+							PROJECTS
 						</a>
 					</li>
 					<li>
-						<a href="#about" onClick={() => setIsNavExpanded(!isNavExpanded)}>
+						<a href="#about" onClick={() => setIsNavExpanded(false)}>
 							ABOUT
 						</a>
 					</li>
 					<li>
-						<a href="#contact" onClick={() => setIsNavExpanded(!isNavExpanded)}>
+						<a href="#contact" onClick={() => setIsNavExpanded(false)}>
 							CONTACT
 						</a>
 					</li>

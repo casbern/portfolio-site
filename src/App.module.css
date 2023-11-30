@@ -1,17 +1,16 @@
 .wrapper {
-	max-width: 90rem;
+	max-width: 90%;
 	margin: 0 auto;
 }
 
 .hero {
 	width: 100%;
-	padding: 2rem;
 
-	text-align: center;
+	text-align: justify;
 }
 
 .hero img {
-	width: 31rem;
+	width: 35rem;
 }
 
 .heroInfo h1 {
@@ -29,6 +28,7 @@
 	color: var(--gray-200);
 	font-weight: 400;
 	line-height: 2.6rem;
+	font-size: 1.6rem;
 }
 
 .button {
@@ -54,6 +54,16 @@
 
 .contact {
 	margin-bottom: 4.8rem;
+}
+
+.contactInfo p:first-child {
+	color: var(--pink-200);
+	font-weight: bold;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	text-align: left;
+
+	margin-bottom: 2rem;
 }
 
 .links a svg {
@@ -108,11 +118,35 @@ a:focus {
 	border: none;
 }
 
-@media (min-width: 768px) {
-	.cardsContainer {
+.cardsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (min-width: 600px) {
+	.hero {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+
+		flex-direction: row-reverse;
+		text-align: left;
+	}
+
+	.hero img {
+		width: 35rem;
+	}
+
+	.heroInfo {
+		padding-top: 70px;
+	}
+
+	.cardsContainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2.4rem;
 	}
 
 	.contact {
@@ -121,7 +155,7 @@ a:focus {
 	}
 
 	.contactInfo {
-		padding: 2rem 4rem;
+		padding: 2rem 4rem 0 0;
 	}
 }
 
@@ -146,5 +180,9 @@ a:focus {
 
 	button {
 		font-size: 2.4rem;
+	}
+
+	.cardsContainer {
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 }

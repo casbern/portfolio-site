@@ -46,10 +46,10 @@ function App() {
 					<p>
 						Determined to excel, I expanded my knowledge through various online
 						courses. Additionally, I committed to academic growth, earning a
-						degree in Analysis and Systems Development from Mackenzie
-						University. This educational milestone has provided me with a solid
-						foundation, laying the groundwork for a successful career in web
-						programming.
+						degree in <strong>Analysis and Systems Development</strong> from
+						Mackenzie University. This educational milestone has provided me
+						with a solid foundation, laying the groundwork for a successful
+						career in web programming.
 					</p>
 
 					<div className={styles.button}>
@@ -101,10 +101,11 @@ function App() {
 				<Session title="Contact me">
 					<div className={styles.contact}>
 						<div className={styles.contactInfo}>
+							<p>Enjoyed my work? Let's work together!</p>
 							<p>
-								Reach out! Send me a message, I will answer as fast as possible.
+								I am always up for a chat. Send me a message or give me a shout
+								on my social media.
 							</p>
-							<p>Check also my linkedin and github page!</p>
 
 							<div className={styles.links}>
 								<a
