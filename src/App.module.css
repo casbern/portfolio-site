@@ -1,6 +1,8 @@
 .wrapper {
-	max-width: 90%;
+	max-width: 95rem;
 	margin: 0 auto;
+
+	padding: 0 2rem;
 }
 
 .hero {
@@ -125,6 +127,10 @@ a:focus {
 }
 
 @media (min-width: 600px) {
+	.wrapper {
+		padding: 0 8rem;
+	}
+
 	.hero {
 		display: flex;
 		flex-direction: row;
@@ -160,6 +166,10 @@ a:focus {
 }
 
 @media (min-width: 1024px) {
+	.wrapper {
+		padding: 0 2rem;
+	}
+
 	.hero {
 		display: flex;
 		flex-direction: row;

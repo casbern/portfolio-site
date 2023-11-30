@@ -1,3 +1,5 @@
+import { Link } from "react-scroll"
+
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
 
 import { Header } from "./components/Header"
@@ -29,12 +31,23 @@ function App() {
 						</p>
 
 						<div className={styles.button}>
-							<a href="#">See work</a>
+							<Link
+								activeClass="active"
+								to="projects"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+							>
+								See work
+							</Link>
+
+							{/* <a href="#">See work</a> */}
 						</div>
 					</div>
 				</div>
 
-				<Session title="About me">
+				<Session title="About me" id="about">
 					<p>
 						I kickstarted my career in the administrative field, picking up
 						valuable insights and skills along the way. The turning point came
@@ -62,7 +75,7 @@ function App() {
 					</div>
 				</Session>
 
-				<Session title="Projects">
+				<Session title="Projects" id="projects">
 					<div className={styles.cardsContainer}>
 						<Card
 							color="var(--pink-200)"
@@ -98,7 +111,7 @@ function App() {
 					</div>
 				</Session>
 
-				<Session title="Contact me">
+				<Session title="Contact me" id="contact">
 					<div className={styles.contact}>
 						<div className={styles.contactInfo}>
 							<p>Enjoyed my work? Let's work together!</p>
