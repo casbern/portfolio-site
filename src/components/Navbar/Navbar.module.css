@@ -43,6 +43,8 @@
 
 .navigationMenu {
 	display: none;
+
+	cursor: pointer;
 }
 
 .navigationMenu.expanded {

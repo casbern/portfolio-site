@@ -44,7 +44,8 @@
 	cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.form button:hover {
 	background-color: #cb7ea4;
 }
 
@@ -118,6 +119,8 @@ a:focus {
 	padding: 1.2rem 3.2rem;
 	border-radius: 32px;
 	border: none;
+
+	cursor: pointer;
 }
 
 .cardsContainer {
@@ -126,7 +129,7 @@ a:focus {
 	align-items: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 	.wrapper {
 		padding: 0 8rem;
 	}

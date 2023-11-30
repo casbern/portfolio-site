@@ -62,7 +62,7 @@ function App() {
 						degree in <strong>Analysis and Systems Development</strong> from
 						Mackenzie University. This educational milestone has provided me
 						with a solid foundation, laying the groundwork for a successful
-						career in web programming.
+						career in <strong>web programming</strong>.
 					</p>
 
 					<div className={styles.button}>
