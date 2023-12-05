@@ -2,6 +2,8 @@ import styles from "./Navbar.module.css"
 import { useState, useEffect } from "react"
 import { RxHamburgerMenu } from "react-icons/rx"
 
+import { Link } from "react-router-dom"
+
 export function Navbar() {
 	const [isNavExpanded, setIsNavExpanded] = useState(false)
 
@@ -38,19 +40,13 @@ export function Navbar() {
 			>
 				<ul>
 					<li>
-						<a href="/projects" onClick={() => setIsNavExpanded(false)}>
-							PROJECTS
-						</a>
+						<Link to="/projects">PROJECTS</Link>
 					</li>
 					<li>
-						<a href="/about" onClick={() => setIsNavExpanded(false)}>
-							ABOUT
-						</a>
+						<Link to="/about">ABOUT</Link>
 					</li>
 					<li>
-						<a href="/contact" onClick={() => setIsNavExpanded(false)}>
-							CONTACT
-						</a>
+						<Link to="/contact">CONTACT</Link>
 					</li>
 				</ul>
 			</div>
