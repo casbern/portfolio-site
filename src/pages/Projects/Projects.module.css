@@ -1,0 +1,19 @@
+.cardsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (min-width: 768px) {
+	.cardsContainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2.4rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.cardsContainer {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

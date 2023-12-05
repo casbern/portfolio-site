@@ -1,5 +1,3 @@
-import { Link } from "react-scroll"
-
 import styles from "./Navbar.module.css"
 import { useState, useEffect } from "react"
 import { RxHamburgerMenu } from "react-icons/rx"
@@ -40,52 +38,19 @@ export function Navbar() {
 			>
 				<ul>
 					<li>
-						<Link
-							activeClass="active"
-							to="projects"
-							spy={true}
-							smooth={true}
-							offset={-70}
-							duration={500}
-							onClick={() => setIsNavExpanded(false)}
-						>
+						<a href="/projects" onClick={() => setIsNavExpanded(false)}>
 							PROJECTS
-						</Link>
-						{/* <a href="#projects" onClick={() => setIsNavExpanded(false)}>
-							PROJECTS
-						</a> */}
+						</a>
 					</li>
 					<li>
-						<Link
-							activeClass="active"
-							to="about"
-							spy={true}
-							smooth={true}
-							offset={-70}
-							duration={500}
-							onClick={() => setIsNavExpanded(false)}
-						>
+						<a href="/about" onClick={() => setIsNavExpanded(false)}>
 							ABOUT
-						</Link>
-						{/* <a href="#about" onClick={() => setIsNavExpanded(false)}>
-							ABOUT
-						</a> */}
+						</a>
 					</li>
 					<li>
-						<Link
-							activeClass="active"
-							to="contact"
-							spy={true}
-							smooth={true}
-							offset={-70}
-							duration={500}
-							onClick={() => setIsNavExpanded(false)}
-						>
+						<a href="/contact" onClick={() => setIsNavExpanded(false)}>
 							CONTACT
-						</Link>
-						{/* <a href="#contact" onClick={() => setIsNavExpanded(false)}>
-							CONTACT
-						</a> */}
+						</a>
 					</li>
 				</ul>
 			</div>

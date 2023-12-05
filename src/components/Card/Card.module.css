@@ -1,19 +1,21 @@
-.cards {
+.card {
 	max-width: 32rem;
 	height: 27.9rem;
 	padding: 5rem 2.4rem;
 	margin-bottom: 2.4rem;
 
 	border-radius: 32px;
+
+	text-align: left;
 }
 
-.cards h1,
-.cards p,
-.cards a {
+.card h1,
+.card p,
+.card a {
 	color: var(--white);
 }
 
-.cards h1 {
+.card h1 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 2.4rem;
 	font-style: normal;
@@ -22,7 +24,7 @@
 	margin-bottom: 1.6rem;
 }
 
-.cards p {
+.card p {
 	font-weight: 400;
 
 	margin-bottom: 2.4rem;
@@ -43,7 +45,7 @@
 }
 
 @media (min-width: 768px) {
-	.cards {
+	.card {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -55,7 +57,7 @@
 }
 
 @media (min-width: 1024px) {
-	.cards {
+	.card {
 		max-width: 35rem;
 	}
 }

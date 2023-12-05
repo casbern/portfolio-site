@@ -1,0 +1,78 @@
+.contact {
+	margin-bottom: 4.8rem;
+}
+
+.contactInfo p:first-child {
+	color: var(--pink-200);
+	font-weight: bold;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	text-align: left;
+
+	margin-bottom: 2rem;
+}
+
+.links a svg {
+	color: var(--blue-100);
+	font-size: 4.5rem;
+	margin: 16px 0 32px;
+
+	cursor: pointer;
+}
+
+.links a svg:hover {
+	color: var(--blue-200);
+}
+
+a:focus {
+	box-shadow: none;
+}
+
+.form,
+.formInfo {
+	display: flex;
+	flex-direction: column;
+}
+
+.form input,
+.form textarea {
+	margin-bottom: 3.2rem;
+	border-radius: 16px;
+	border: 1px solid var(--gray-200);
+	padding: 1.2rem;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+	color: var(--gray-100);
+}
+
+.form textarea {
+	height: 11.3rem;
+}
+
+.form label {
+	margin-bottom: 0.5rem;
+	color: var(--gray-200);
+}
+
+.form button {
+	background: var(--pink-200);
+	color: var(--white);
+	padding: 1.2rem 3.2rem;
+	border-radius: 32px;
+	border: none;
+
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.contact {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.contactInfo {
+		padding: 2rem 4rem 0 0;
+	}
+}
