@@ -14,8 +14,8 @@ export function Navbar() {
 	}, [location])
 
 	const links = [
-		{ to: "/", text: "Home" },
 		{ to: "/about", text: "About" },
+		{ to: "/projects", text: "Projects" },
 		{ to: "/contact", text: "Contact" },
 	]
 
