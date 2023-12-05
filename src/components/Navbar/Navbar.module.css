@@ -82,6 +82,10 @@
 	text-decoration: underline;
 }
 
+.navigationMenu ul li a.active {
+	color: var(--pink-200);
+}
+
 @media (min-width: 768px) {
 	.burguerIcon {
 		display: none;

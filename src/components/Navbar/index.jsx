@@ -2,10 +2,22 @@ import styles from "./Navbar.module.css"
 import { useState, useEffect } from "react"
 import { RxHamburgerMenu } from "react-icons/rx"
 
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 export function Navbar() {
+	const location = useLocation()
+	const [currentPage, setCurrentPage] = useState("")
 	const [isNavExpanded, setIsNavExpanded] = useState(false)
+
+	useEffect(() => {
+		setCurrentPage(location.pathname)
+	}, [location])
+
+	const links = [
+		{ to: "/", text: "Home" },
+		{ to: "/about", text: "About" },
+		{ to: "/contact", text: "Contact" },
+	]
 
 	useEffect(() => {
 		const handleResize = () => {
@@ -39,7 +51,19 @@ export function Navbar() {
 				}`}
 			>
 				<ul>
-					<li>
+					{links.map((link, index) => (
+						<li>
+							<Link
+								key={index}
+								to={link.to}
+								className={currentPage === link.to ? `${styles.active}` : ""}
+							>
+								{link.text}
+							</Link>
+						</li>
+					))}
+
+					{/* <li>
 						<Link to="/projects">PROJECTS</Link>
 					</li>
 					<li>
@@ -47,7 +71,7 @@ export function Navbar() {
 					</li>
 					<li>
 						<Link to="/contact">CONTACT</Link>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</nav>
