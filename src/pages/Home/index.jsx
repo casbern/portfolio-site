@@ -1,5 +1,7 @@
 import { Layout } from "../../components/Layout"
 
+import { Link } from "react-router-dom"
+
 import image from "../../assets/girl-coding.png"
 
 import styles from "./Home.module.css"
@@ -22,7 +24,7 @@ export function Home() {
 						</p>
 
 						<div className={styles.button}>
-							<a href="/projects">See work</a>
+							<Link to="/projects">See my work</Link>
 						</div>
 					</div>
 				</div>
