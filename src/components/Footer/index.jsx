@@ -1,7 +1,5 @@
 import styles from "./Footer.module.css"
 
 export function Footer() {
-	return (
-		<footer className={styles.footer}>All rights reserved • Made with ♡</footer>
-	)
+	return <footer className={styles.footer}>© 2024 • Made with ♡ by me</footer>
 }

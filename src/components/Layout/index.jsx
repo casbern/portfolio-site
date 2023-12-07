@@ -10,7 +10,7 @@ export function Layout({ children }) {
 
 			<div className={styles.wrapper}>{children}</div>
 
-			<Footer content="All rights reserved • Made with ♡" />
+			<Footer />
 		</>
 	)
 }
