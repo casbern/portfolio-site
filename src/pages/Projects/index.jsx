@@ -32,7 +32,7 @@ export function Projects() {
 							color="var(--blue-200)"
 							title="Reta Final"
 							content="A web application built as a final university project for a company that manages tournaments between soccer schools."
-							technologies="HTML • CSS • JavaScript • Node.js • Nunjucks • Express."
+							technologies="HTML • CSS • JavaScript • Node.js • Nunjucks • Express • PostgreSQL."
 							link="https://reta-final.onrender.com/campeonatos"
 							github="https://github.com/cah90/reta-final"
 						/>
