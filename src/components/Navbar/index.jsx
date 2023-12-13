@@ -52,7 +52,7 @@ export function Navbar() {
 			>
 				<ul>
 					{links.map((link, index) => (
-						<li>
+						<li key={link.to}>
 							<Link
 								key={index}
 								to={link.to}
@@ -62,16 +62,6 @@ export function Navbar() {
 							</Link>
 						</li>
 					))}
-
-					{/* <li>
-						<Link to="/projects">PROJECTS</Link>
-					</li>
-					<li>
-						<Link to="/about">ABOUT</Link>
-					</li>
-					<li>
-						<Link to="/contact">CONTACT</Link>
-					</li> */}
 				</ul>
 			</div>
 		</nav>
