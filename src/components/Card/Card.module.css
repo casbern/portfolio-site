@@ -48,6 +48,7 @@
 	padding: 1rem;
 	border-radius: 5px;
 	border: 1px solid var(--white);
+	transition: outline-width 0.3s ease;
 	cursor: pointer;
 
 	flex: 1;
@@ -71,6 +72,6 @@
 	}
 
 	.links button:hover {
-		border: 2px solid var(--white);
+		outline: 1px solid var(--white);
 	}
 }

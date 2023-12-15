@@ -30,7 +30,7 @@ export function About() {
 							href="https://www.linkedin.com/in/cassiabernardodev/"
 							target="_blank"
 						>
-							Check my Linkedin!
+							Check my LinkedIn
 						</a>
 					</div>
 				</Session>
