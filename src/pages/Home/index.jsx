@@ -35,7 +35,8 @@ export function Home() {
 						<p>
 							Junior Front-End Developer passionate about turning ideas into
 							engaging and responsive interfaces, with solid skills in{" "}
-							<strong>HTML, CSS </strong>, and <strong>JavaScript</strong>.
+							<strong>React, HTML, CSS </strong>, and{" "}
+							<strong>JavaScript</strong>.
 						</p>
 
 						<div className={styles.buttons}>
