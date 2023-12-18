@@ -81,6 +81,24 @@ export function Projects() {
 							link="https://sunnyside-agency-landpage.netlify.app/"
 							github="https://github.com/cah90/sunnyside-agency"
 						/>
+
+						<Card
+							color="var(--pink-200)"
+							title="Sign Up Form with JavaScript Validation"
+							content="This project utilized HTML, CSS, and JavaScript, following a mobile-first approach."
+							technologies="HTML • CSS • JavaScript."
+							link="https://sign-up-form-js-validation.netlify.app/"
+							github="https://github.com/cah90/sign-up-form"
+						/>
+
+						<Card
+							color="var(--pink-200)"
+							title="3 Column Card Component"
+							content="A three card component layout that used semantic HTML, CSS Flexbox and a mobile-first workflow."
+							technologies="HTML • CSS."
+							link="https://three-column-card-component-layout.netlify.app/"
+							github="https://github.com/cah90/3-column-preview-card-component-main"
+						/>
 					</div>
 				</Session>
 			</Layout>
