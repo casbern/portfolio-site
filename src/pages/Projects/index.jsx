@@ -38,7 +38,7 @@ export function Projects() {
 						/>
 
 						<Card
-							color="var(--lilac)"
+							color="var(--blue-200)"
 							title="Rocket Notes"
 							content="A web app for storing personal notes. It's possible to edit and delete notes as needed, as well as edit your profile and photo."
 							technologies="React • Express • Styled-components • SQLite • CSS • HTML • JavaScript."
@@ -53,6 +53,33 @@ export function Projects() {
 							technologies="HTML • CSS • JavaScript."
 							link="https://luckycookie.netlify.app/"
 							github="https://github.com/cah90/biscoito-da-sorte"
+						/>
+
+						<Card
+							color="var(--lilac)"
+							title="Four Cards Layout"
+							content="A fully responsive card layout focusing on semantic HTML5 markup, CSS Grid, CSS Grid Area, and a mobile-first approach."
+							technologies="HTML • CSS."
+							link="https://cards-layout.netlify.app/"
+							github="https://github.com/cah90/four-card-feature-seaction-master"
+						/>
+
+						<Card
+							color="var(--lilac)"
+							title="Pricing Component with Toggle"
+							content="A fully responsive pricing component that toggles between monthly and annual prices, emphasizing semantic HTML5, CSS Flexbox, JavaScript, and a mobile-first approach."
+							technologies="HTML • CSS • JavaScript."
+							link="https://pricing-toggle-layout.netlify.app/"
+							github="https://github.com/cah90/pricing-component-with-toggle-master"
+						/>
+
+						<Card
+							color="var(--blue-200)"
+							title="Sunnyside Agency Landing Page"
+							content="A fully responsive landing page for a marketing agency, emphasizing semantic HTML5, CSS Flexbox, CSS Grid, JavaScript, and a mobile-first approach."
+							technologies="HTML • CSS • JavaScript."
+							link="https://sunnyside-agency-landpage.netlify.app/"
+							github="https://github.com/cah90/sunnyside-agency"
 						/>
 					</div>
 				</Session>
