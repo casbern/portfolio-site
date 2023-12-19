@@ -15,6 +15,7 @@ export function Navbar() {
 
 	const links = [
 		{ to: "/about", text: "About" },
+		{ to: "/skills", text: "Skills" },
 		{ to: "/projects", text: "Projects" },
 		{ to: "/contact", text: "Contact" },
 	]
@@ -51,10 +52,9 @@ export function Navbar() {
 				}`}
 			>
 				<ul>
-					{links.map((link, index) => (
+					{links.map((link) => (
 						<li key={link.to}>
 							<Link
-								key={index}
 								to={link.to}
 								className={currentPage === link.to ? `${styles.active}` : ""}
 							>

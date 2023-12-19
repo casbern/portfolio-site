@@ -1,5 +1,7 @@
 import styles from "./Card.module.css"
 
+import { Link } from "react-router-dom"
+
 export function Card({
 	title,
 	image,
@@ -17,17 +19,13 @@ export function Card({
 			<p>{content}</p>
 			<p>{technologies}</p>
 			<div className={styles.links}>
-				<button>
-					<a href={link} target="_blank">
-						Site
-					</a>
-				</button>
+				<Link to={link} target="_blank" className={styles.button}>
+					Site
+				</Link>
 
-				<button>
-					<a href={github} target="_blank">
-						GitHub Repo
-					</a>
-				</button>
+				<Link to={github} target="_blank" className={styles.button}>
+					GitHub Repo
+				</Link>
 			</div>
 		</div>
 	)

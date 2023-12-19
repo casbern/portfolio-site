@@ -40,29 +40,27 @@ export function Home() {
 						</p>
 
 						<div className={styles.buttons}>
-							<div className={styles.button}>
-								<Link to="/projects">Projects</Link>
-							</div>
+							<Link to="/projects" className={styles.button}>
+								Projects
+							</Link>
 
-							<div className={styles.button}>
-								<Link
-									to="https://www.linkedin.com/in/cassiabernardodev/"
-									target="_blank"
-								>
-									LinkedIn
-								</Link>
-							</div>
+							<Link
+								to="https://www.linkedin.com/in/cassiabernardodev/"
+								target="_blank"
+								className={styles.button}
+							>
+								LinkedIn
+							</Link>
 
-							<div className={styles.button}>
-								<Link
-									to={cv}
-									download="cv"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									CV
-								</Link>
-							</div>
+							<Link
+								to={cv}
+								download="cv"
+								target="_blank"
+								rel="noopener noreferrer"
+								className={styles.button}
+							>
+								CV
+							</Link>
 						</div>
 					</div>
 				</div>

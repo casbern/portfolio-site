@@ -38,9 +38,11 @@
 	background-color: var(--pink-200);
 	padding: 1.2rem 3.2rem;
 	border-radius: 32px;
-	display: inline-block;
+	display: inline;
 	cursor: pointer;
 	text-align: center;
+	text-decoration: none;
+	color: var(--white);
 }
 
 .button:hover,
