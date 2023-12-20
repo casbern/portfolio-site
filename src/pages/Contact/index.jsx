@@ -1,7 +1,8 @@
 import styles from "./Contact.module.css"
 
+import { useRef } from "react"
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa"
-import { useForm, ValidationError } from "@formspree/react"
+import { useForm } from "@formspree/react"
 import { ToastContainer, toast } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 
@@ -10,21 +11,24 @@ import { Layout } from "../../components/Layout"
 
 export function Contact() {
 	const [state, handleSubmitForm] = useForm("xayrwjqz")
+	const formRef = useRef(null)
 
 	const handleSubmit = async (e) => {
 		e.preventDefault()
 		await handleSubmitForm(e)
 
-		console.log(state)
+		if (formRef.current) {
+			formRef.current.reset()
+		}
 
 		if (state.succeeded) {
-			toast.success("Message sent successfully!", {
+			return toast.success("Message sent successfully!", {
 				position: toast.POSITION.TOP_RIGHT,
 				autoClose: 5000,
 				hideProgressBar: false,
 			})
 		} else if (state.errors) {
-			toast.error("Failed to send message. Please try again later.", {
+			return toast.error("Failed to send message. Please try again later.", {
 				position: toast.POSITION.TOP_RIGHT,
 				autoClose: 5000,
 				hideProgressBar: false,
@@ -58,7 +62,9 @@ export function Contact() {
 							</div>
 						</div>
 
-						<form className={styles.form} onSubmit={handleSubmit}>
+						<form className={styles.form} onSubmit={handleSubmit} ref={formRef}>
+							<ToastContainer />
+
 							<div className={styles.formInfo}>
 								<label>Name</label>
 								<input
@@ -87,7 +93,11 @@ export function Contact() {
 								required
 							></textarea>
 
-							<button type="submit" disabled={state.submitting}>
+							<button
+								className={styles.btn}
+								type="submit"
+								disabled={state.submitting}
+							>
 								Send
 							</button>
 						</form>

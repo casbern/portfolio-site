@@ -56,7 +56,7 @@ a:focus {
 	color: var(--gray-200);
 }
 
-.form button {
+.form .btn {
 	background: var(--pink-200);
 	color: var(--white);
 	padding: 1.2rem 3.2rem;
