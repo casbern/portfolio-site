@@ -56,7 +56,7 @@ export function Contact() {
 									<FaLinkedin />
 								</a>
 
-								<a href="https://www.github.com/cah90" target="_blank">
+								<a href="https://github.com/casbern" target="_blank">
 									<FaGithubSquare />
 								</a>
 							</div>

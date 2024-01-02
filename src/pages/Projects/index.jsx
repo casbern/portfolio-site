@@ -16,7 +16,7 @@ export function Projects() {
 							content="A restaurant web app that accepts food delivery orders, lists the dishes and has an admin area to manage the dishes."
 							technologies="React • Express • Styled-components • SQLite • CSS • HTML • JavaScript."
 							link="https://rocketseat-foodexplorer.netlify.app/"
-							github="https://github.com/cah90/foodexplorer-frontend"
+							github="https://github.com/casbern/foodexplorer-frontend"
 						/>
 
 						<Card
@@ -25,7 +25,7 @@ export function Projects() {
 							content="A fully responsive web app allowing time manipulation, music playback, and seamless light/dark mode toggling for optimal user experience across devices."
 							technologies="HTML • CSS • JavaScript."
 							link="https://timertofocus.netlify.app/"
-							github="https://github.com/cah90/focus-timer-dark-mode"
+							github="https://github.com/casbern/focus-timer-dark-mode"
 						/>
 
 						<Card
@@ -34,7 +34,7 @@ export function Projects() {
 							content="A web application built as a final university project for a company that manages tournaments between soccer schools."
 							technologies="HTML • CSS • JavaScript • Node.js • Nunjucks • Express • PostgreSQL."
 							link="https://reta-final.onrender.com/campeonatos"
-							github="https://github.com/cah90/reta-final"
+							github="https://github.com/casbern/reta-final"
 						/>
 
 						<Card
@@ -43,7 +43,7 @@ export function Projects() {
 							content="A web app for storing personal notes. It's possible to edit and delete notes as needed, as well as edit your profile and photo."
 							technologies="React • Express • Styled-components • SQLite • CSS • HTML • JavaScript."
 							link="https://keepthenotes.netlify.app/"
-							github="https://github.com/cah90/explorer-rocketnotes-frontend"
+							github="https://github.com/casbern/explorer-rocketnotes-frontend"
 						/>
 
 						<Card
@@ -52,7 +52,7 @@ export function Projects() {
 							content="A web app that emulates a virtual Chinese fortune cookie experience, delivering wise life tips."
 							technologies="HTML • CSS • JavaScript."
 							link="https://luckycookie.netlify.app/"
-							github="https://github.com/cah90/biscoito-da-sorte"
+							github="https://github.com/casbern/biscoito-da-sorte"
 						/>
 
 						<Card
@@ -61,7 +61,7 @@ export function Projects() {
 							content="A fully responsive card layout focusing on semantic HTML5 markup, CSS Grid, CSS Grid Area, and a mobile-first approach."
 							technologies="HTML • CSS."
 							link="https://cards-layout.netlify.app/"
-							github="https://github.com/cah90/four-card-feature-seaction-master"
+							github="https://github.com/casbern/four-card-feature-seaction-master"
 						/>
 
 						<Card
@@ -70,7 +70,7 @@ export function Projects() {
 							content="A fully responsive pricing component that toggles between monthly and annual prices, emphasizing semantic HTML5, CSS Flexbox, JavaScript, and a mobile-first approach."
 							technologies="HTML • CSS • JavaScript."
 							link="https://pricing-toggle-layout.netlify.app/"
-							github="https://github.com/cah90/pricing-component-with-toggle-master"
+							github="https://github.com/casbern/pricing-component-with-toggle-master"
 						/>
 
 						<Card
@@ -79,7 +79,7 @@ export function Projects() {
 							content="A fully responsive landing page for a marketing agency, emphasizing semantic HTML5, CSS Flexbox, CSS Grid, JavaScript, and a mobile-first approach."
 							technologies="HTML • CSS • JavaScript."
 							link="https://sunnyside-agency-landpage.netlify.app/"
-							github="https://github.com/cah90/sunnyside-agency"
+							github="https://github.com/casbern/sunnyside-agency"
 						/>
 
 						<Card
@@ -88,7 +88,7 @@ export function Projects() {
 							content="This project utilized HTML, CSS, and JavaScript, following a mobile-first approach."
 							technologies="HTML • CSS • JavaScript."
 							link="https://sign-up-form-js-validation.netlify.app/"
-							github="https://github.com/cah90/sign-up-form"
+							github="https://github.com/casbern/sign-up-form"
 						/>
 
 						<Card
@@ -97,7 +97,7 @@ export function Projects() {
 							content="A three card component layout that used semantic HTML, CSS Flexbox and a mobile-first workflow."
 							technologies="HTML • CSS."
 							link="https://three-column-card-component-layout.netlify.app/"
-							github="https://github.com/cah90/3-column-preview-card-component-main"
+							github="https://github.com/casbern/3-column-preview-card-component-main"
 						/>
 					</div>
 				</Session>
