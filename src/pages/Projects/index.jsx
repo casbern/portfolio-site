@@ -30,11 +30,11 @@ export function Projects() {
 
 						<Card
 							color="var(--blue-200)"
-							title="Reta Final"
-							content="A web application built as a final university project for a company that manages tournaments between soccer schools."
-							technologies="HTML • CSS • JavaScript • Node.js • Nunjucks • Express • PostgreSQL."
-							link="https://reta-final.onrender.com/campeonatos"
-							github="https://github.com/casbern/reta-final"
+							title="Todo App"
+							content="A to-do app that marks all your tasks for the day and includes a counter that tracks how many tasks have been completed and how many are still open to finish."
+							technologies="HTML • CSS • JavaScript • React • Typescript."
+							link="https://todo-tasks-project.netlify.app/"
+							github="https://github.com/casbern/todo"
 						/>
 
 						<Card
@@ -98,6 +98,15 @@ export function Projects() {
 							technologies="HTML • CSS."
 							link="https://three-column-card-component-layout.netlify.app/"
 							github="https://github.com/casbern/3-column-preview-card-component-main"
+						/>
+
+						<Card
+							color="var(--lilac)"
+							title="Reta Final"
+							content="A web application built as a final university project for a company that manages tournaments between soccer schools."
+							technologies="HTML • CSS • JavaScript • Node.js • Nunjucks • Express • PostgreSQL."
+							link="https://reta-final.onrender.com/campeonatos"
+							github="https://github.com/casbern/reta-final"
 						/>
 					</div>
 				</Session>
