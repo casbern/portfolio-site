@@ -103,21 +103,20 @@ export function Projects() {
 						<Card
 							color="var(--lilac)"
 							title="Reta Final"
-							content="A different countdown for controlling your tasks. Here you can give a name to your task and check it on the history."
-							technologies="React • Styled-Component • JavaScript • TypeScript • HTML"
-							link="https://ignit-timer.netlify.app/"
-							github="https://github.com/casbern/timer"
-						/>
-
-						<Card
-							color="var(--blue-200)"
-							title="Reta Final"
 							content="A web application built as a final university project for a company that manages tournaments between soccer schools."
 							technologies="HTML • CSS • JavaScript • Node.js • Nunjucks • Express • PostgreSQL."
 							link="https://reta-final.onrender.com/campeonatos"
 							github="https://github.com/casbern/reta-final"
 						/>
 
+						<Card
+							color="var(--blue-200)"
+							title="Timer with History"
+							content="A different countdown for controlling your tasks. Here you can give a name to your task and check it on the history tab for your own control."
+							technologies="React • Styled-Component • JavaScript • TypeScript"
+							link="https://ignit-timer.netlify.app/"
+							github="https://github.com/casbern/timer"
+						/>
 					</div>
 				</Session>
 			</Layout>
