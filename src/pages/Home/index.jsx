@@ -54,8 +54,9 @@ export function Home() {
 
 							<Link
 								to={cv}
-								download="cv"
+								// download="cv"
 								target="_blank"
+								type="application/pdf"
 								rel="noopener noreferrer"
 								className={styles.button}
 							>

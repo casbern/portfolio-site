@@ -108,6 +108,15 @@ export function Projects() {
 							link="https://reta-final.onrender.com/campeonatos"
 							github="https://github.com/casbern/reta-final"
 						/>
+
+						<Card
+							color="var(--blue)"
+							title="Reta Final"
+							content="A different countdown for controlling your tasks. Here you can give a name to your task and check it on the history."
+							technologies="React • Styled-Component • JavaScript • TypeScript • HTML"
+							link="https://ignit-timer.netlify.app/"
+							github="https://github.com/casbern/timer"
+						/>
 					</div>
 				</Session>
 			</Layout>
