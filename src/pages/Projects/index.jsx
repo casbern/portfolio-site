@@ -113,10 +113,28 @@ export function Projects() {
 							color="var(--blue-200)"
 							title="Timer with History"
 							content="A different countdown for controlling your tasks. Here you can give a name to your task and check it on the history tab for your own control."
-							technologies="React • Styled-Component • JavaScript • TypeScript"
+							technologies="React • Styled-Component • JavaScript • TypeScript • HTML"
 							link="https://ignit-timer.netlify.app/"
 							github="https://github.com/casbern/timer"
 						/>
+
+						<Card
+							color="var(--blue-200)"
+							title="Coffee Delivery Store"
+							content="A delivery coffee store in which the client can place an order, choose the delivery and the payment method."
+							technologies="React • Styled-Component • JavaScript • TypeScript • HTML • Radix"
+							link="https://coffeedelivery.netlify.app/"
+							github="https://github.com/casbern/coffee-delivery"
+						/>	
+
+						<Card
+							color="var(--pink-200)"
+							title="Money App"
+							content="An app for you to track your finances. You can add and track transaction."
+							technologies="React • Styled-Component • JavaScript • TypeScript"
+							link="https://money-ignite.netlify.app/"
+							github="https://github.com/casbern/dt-money"
+						/>	
 					</div>
 				</Session>
 			</Layout>
