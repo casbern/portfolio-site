@@ -127,14 +127,7 @@ export function Projects() {
 							github="https://github.com/casbern/coffee-delivery"
 						/>	
 
-						<Card
-							color="var(--pink-200)"
-							title="Money App"
-							content="An app for you to track your finances. You can add and track transaction."
-							technologies="React • Styled-Component • JavaScript • TypeScript"
-							link="https://money-ignite.netlify.app/"
-							github="https://github.com/casbern/dt-money"
-						/>	
+						
 					</div>
 				</Session>
 			</Layout>
