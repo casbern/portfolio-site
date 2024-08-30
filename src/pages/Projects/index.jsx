@@ -122,9 +122,18 @@ export function Projects() {
 							color="var(--blue-200)"
 							title="Coffee Delivery Store"
 							content="A delivery coffee store in which the client can place an order, choose the delivery and the payment method."
-							technologies="React • Styled-Component • JavaScript • TypeScript • HTML • Radix"
+							technologies="React • Styled-Component • JavaScript • TypeScript • HTML • CSS • Radix"
 							link="https://coffeedelivery.netlify.app/"
 							github="https://github.com/casbern/coffee-delivery"
+						/>	
+
+						<Card
+							color="var(--pink-200)"
+							title="Github Blog Issues"
+							content="A very nice application that shows all the issues related to a repo. We can use the search to look faster to an specific issue and click on it for more details."
+							technologies="React • Styled-Component • JavaScript • TypeScript • HTML • CSS"
+							link="https://gitbloghub.netlify.app/"
+							github="https://github.com/casbern/github-blog"
 						/>	
 
 						
