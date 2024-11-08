@@ -1,16 +1,16 @@
-import styles from "./Layout.module.css"
+import styles from './Layout.module.css'
 
-import { Header } from "../Header"
-import { Footer } from "../Footer"
+import { Header } from '../Header'
+import { Footer } from '../Footer'
 
 export function Layout({ children }) {
-	return (
-		<>
-			<Header />
+  return (
+    <>
+      <Header />
 
-			<div className={styles.wrapper}>{children}</div>
+      <div className={styles.wrapper}>{children}</div>
 
-			<Footer />
-		</>
-	)
+      <Footer />
+    </>
+  )
 }
