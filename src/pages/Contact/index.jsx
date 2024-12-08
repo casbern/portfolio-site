@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 import { Session } from '../../components/Session'
 import { Layout } from '../../components/Layout'
+import { Button } from '../../components/Button'
 
 export function Contact() {
   const [state, handleSubmitForm] = useForm('xayrwjqz')
@@ -42,7 +43,7 @@ export function Contact() {
         <Session title="Enjoyed my work?" id="contact">
           <div className={styles.contact}>
             <div className={styles.contactInfo}>
-              <p>Let's work together!</p>
+              <p>Let&apos;s work together!</p>
               <p>
                 I am always up for a chat. Send me a message or give me a shout
                 on my social media.
@@ -98,13 +99,9 @@ export function Contact() {
                 required
               ></textarea>
 
-              <button
-                className={styles.btn}
-                type="submit"
-                disabled={state.submitting}
-              >
+              <Button type="submit" disabled={state.submitting}>
                 Send
-              </button>
+              </Button>
             </form>
           </div>
         </Session>

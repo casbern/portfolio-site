@@ -34,27 +34,7 @@
 	margin: 3.2rem 0;
 }
 
-.button {
-	background-color: var(--pink-200);
-	padding: 1.2rem 3.2rem;
-	border-radius: 32px;
-	display: inline;
-	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
-	color: var(--white);
-}
 
-.button:hover,
-.form button:hover {
-	background-color: #cb7ea4;
-}
-
-.button a {
-	text-decoration: none;
-	color: var(--white);
-	font-weight: 400;
-}
 
 @media (min-width: 768px) {
 	.hero {
@@ -79,9 +59,7 @@
 		flex-direction: row;
 	}
 
-	.button {
-		flex: 1;
-	}
+	
 }
 
 @media (min-width: 1024px) {

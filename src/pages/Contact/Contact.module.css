@@ -12,20 +12,25 @@
 	margin-bottom: 2rem;
 }
 
+.links a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
 .links a svg {
 	color: var(--blue-100);
 	font-size: 4.5rem;
-	margin: 16px 0 32px;
-
+	display:block;
 	cursor: pointer;
 }
 
 .links a svg:hover {
 	color: var(--blue-200);
-}
-
-a:focus {
-	box-shadow: none;
 }
 
 .form,
@@ -56,15 +61,7 @@ a:focus {
 	color: var(--gray-200);
 }
 
-.form .btn {
-	background: var(--pink-200);
-	color: var(--white);
-	padding: 1.2rem 3.2rem;
-	border-radius: 32px;
-	border: none;
 
-	cursor: pointer;
-}
 
 @media (min-width: 768px) {
 	.contact {

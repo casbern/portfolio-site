@@ -7,6 +7,7 @@
 
 	--pink-100: #e09ad6;
 	--pink-200: #be5e8e;
+	--pink-hover: #b74c81;
 
 	--lilac: #9e6eca;
 
@@ -17,8 +18,9 @@
 }
 
 :focus {
-	outline: transparent;
-	box-shadow: 0 0 0 2px var(--pink-200);
+	outline: 1px solid var(--pink-hover);
+	outline-offset: 1px;
+	box-shadow: 0 0 10px var(--pink-hover);
 }
 
 * {

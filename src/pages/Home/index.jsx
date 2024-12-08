@@ -1,7 +1,7 @@
 import { TypeAnimation } from 'react-type-animation'
-import { Link } from 'react-router-dom'
 
 import { Layout } from '../../components/Layout'
+import { Button } from '../../components/Button'
 
 import image from '../../assets/girl-coding.png'
 import cv from '../../assets/cv.pdf'
@@ -43,28 +43,24 @@ export function Home() {
             </p>
 
             <div className={styles.buttons}>
-              <Link to="/projects" className={styles.button}>
-                Projects
-              </Link>
+              <Button to="/projects">Projects</Button>
 
-              <Link
+              <Button
                 to="https://www.linkedin.com/in/cassiabernardodev/"
                 target="_blank"
-                className={styles.button}
               >
                 LinkedIn
-              </Link>
+              </Button>
 
-              <Link
+              <Button
                 to={cv}
                 // download="cv"
                 target="_blank"
                 type="application/pdf"
                 rel="noopener noreferrer"
-                className={styles.button}
               >
                 CV
-              </Link>
+              </Button>
             </div>
           </div>
         </div>

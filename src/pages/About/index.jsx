@@ -2,6 +2,7 @@ import styles from './About.module.css'
 
 import { Session } from '../../components/Session'
 import { Layout } from '../../components/Layout'
+import { Button } from '../../components/Button'
 
 export function About() {
   return (
@@ -26,13 +27,13 @@ export function About() {
           </p>
 
           <div className={styles.button}>
-            <a
+            <Button
               href="https://www.linkedin.com/in/cassiabernardodev/"
               target="_blank"
               rel="noreferrer"
             >
               Check my LinkedIn
-            </a>
+            </Button>
           </div>
         </Session>
       </Layout>
