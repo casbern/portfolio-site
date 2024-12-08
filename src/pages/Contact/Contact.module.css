@@ -12,6 +12,10 @@
 	margin-bottom: 2rem;
 }
 
+.links {
+	margin-top: 2rem;
+}
+
 .links a {
 	display: inline-flex;
 	align-items: center;
