@@ -10,16 +10,16 @@ export function Projects() {
       <Layout>
         <Session title="Projects" id="projects">
           <div className={styles.cardsContainer}>
-						<Card
+            <Card
               color="var(--blue-200)"
-              title="Sunnyside Agency Landing Page"
-              content="A fully responsive landing page for a marketing agency, emphasizing semantic HTML5, CSS Flexbox, CSS Grid, JavaScript, and a mobile-first approach."
-              technologies="HTML • CSS • JavaScript."
-              link="https://sunnyside-agency-landpage.netlify.app/"
-              github="https://github.com/casbern/sunnyside-agency"
+              title="Ignite Shop"
+              content="A simple, responsive t-shirt shopping app where you can add items to the cart, calculate the total and quantity, and finalize the order through the Stripe API."
+              technologies="Next.js • TypeScript • JavaScript • Tailwind • Stripe."
+              link="https://shopignite.netlify.app/"
+              github="https://github.com/casbern/ignite-shop"
             />
 
-						<Card
+            <Card
               color="var(--lilac)"
               title="Timer with History"
               content="A different countdown for controlling your tasks. Here you can give a name to your task and check it on the history tab for your own control."
@@ -28,7 +28,7 @@ export function Projects() {
               github="https://github.com/casbern/timer"
             />
 
-						<Card
+            <Card
               color="var(--pink-200)"
               title="Coffee Delivery Store"
               content="A delivery coffee store in which the client can place an order, choose the delivery and the payment method."
@@ -37,7 +37,7 @@ export function Projects() {
               github="https://github.com/casbern/coffee-delivery"
             />
 
-						<Card
+            <Card
               color="var(--lilac)"
               title="Github Blog Issues"
               content="A very nice application that shows all the issues related to a repo. We can use the search to look faster to an specific issue and click on it for more details."
@@ -117,7 +117,6 @@ export function Projects() {
               github="https://github.com/casbern/pricing-component-with-toggle-master"
             />
 
-            
             <Card
               color="var(--lilac)"
               title="Sign Up Form with JavaScript Validation"
@@ -136,7 +135,16 @@ export function Projects() {
               github="https://github.com/casbern/3-column-preview-card-component-main"
             />
 
-						{/* <Card
+            <Card
+              color="var(--pink-200)"
+              title="Sunnyside Agency Landing Page"
+              content="A fully responsive landing page for a marketing agency, emphasizing semantic HTML5, CSS Flexbox, CSS Grid, JavaScript, and a mobile-first approach."
+              technologies="HTML • CSS • JavaScript."
+              link="https://sunnyside-agency-landpage.netlify.app/"
+              github="https://github.com/casbern/sunnyside-agency"
+            />
+
+            {/* <Card
               color="var(--lilac)"
               title="Reta Final"
               content="A web application built as a final university project for a company that manages tournaments between soccer schools."
