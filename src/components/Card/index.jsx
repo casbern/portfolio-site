@@ -19,7 +19,6 @@ export function Card({
       className={styles.card}
       style={{ backgroundColor: color }}
       whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.9 }}
     >
       <img src={image} alt={imageText} />
       <h1>{title}</h1>
