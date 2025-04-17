@@ -12,6 +12,15 @@ export function Projects() {
           <div className={styles.cardsContainer}>
             <Card
               color="var(--blue-200)"
+              title="Waste Collection Service Redesign"
+              content="A responsive redesign page that enhances UX while maintaining all required functionalities. Created with modern, clean architecture and smooth animations as part of a job application challenge."
+              technologies="ReactJS • JavaScript • Tailwind • Axios • Lucide React • Motion."
+              link="https://rwproject.netlify.app/"
+              github="https://github.com/casbern/rem-waste-project"
+            />
+
+            <Card
+              color="var(--pink-200)"
               title="Ignite Shop"
               content="A simple, responsive t-shirt shopping app where you can add items to the cart, calculate the total and quantity, and finalize the order through the Stripe API."
               technologies="Next.js • TypeScript • JavaScript • Tailwind • Stripe."
@@ -38,7 +47,7 @@ export function Projects() {
             />
 
             <Card
-              color="var(--lilac)"
+              color="var(--blue-200)"
               title="Github Blog Issues"
               content="A very nice application that shows all the issues related to a repo. We can use the search to look faster to an specific issue and click on it for more details."
               technologies="React • Styled-Component • JavaScript • TypeScript • HTML • CSS"
@@ -69,7 +78,7 @@ export function Projects() {
             />
 
             <Card
-              color="var(--blue-200)"
+              color="var(--pink-200)"
               title="Todo App"
               content="A to-do app that marks all your tasks for the day and includes a counter that tracks how many tasks have been completed and how many are still open to finish."
               technologies="HTML • CSS • JavaScript • React • Typescript."
@@ -100,7 +109,7 @@ export function Projects() {
             />
 
             <Card
-              color="var(--pink-200)"
+              color="var(--lilac)"
               title="Four Cards Layout"
               content="A fully responsive card layout focusing on semantic HTML5 markup, CSS Grid, CSS Grid Area, and a mobile-first approach."
               technologies="HTML • CSS."
@@ -127,7 +136,7 @@ export function Projects() {
             />
 
             <Card
-              color="var(--lilac)"
+              color="var(--blue-200)"
               title="3 Column Card Component"
               content="A three card component layout that used semantic HTML, CSS Flexbox and a mobile-first workflow."
               technologies="HTML • CSS."
