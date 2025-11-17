@@ -2,6 +2,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 import { Layout } from '../../components/Layout'
 import { Button } from '../../components/Button'
+import { Helmet } from 'react-helmet-async'
 
 // import image from '../../assets/girl-coding.png'
 import cv from '../../assets/cv.pdf'
@@ -15,9 +16,12 @@ export function Home() {
   )
   return (
     <>
+      <Helmet>
+        <title>Cassia Bernardo | Home </title>
+      </Helmet>
       <Layout>
         <div className={styles.hero}>
-          <img src="girl-coding.png" alt="Image of a girl coding" />
+          <img src="/girl-coding.png" alt="Image of a girl coding" />
 
           <div className={styles.heroInfo}>
             {/* <h1>Hello, nice to meet you here!</h1> */}

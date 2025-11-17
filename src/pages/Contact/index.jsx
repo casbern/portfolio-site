@@ -4,6 +4,7 @@ import { useRef } from 'react'
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
 import { useForm } from '@formspree/react'
 import { ToastContainer, toast } from 'react-toastify'
+import { Helmet } from 'react-helmet-async'
 import 'react-toastify/dist/ReactToastify.css'
 
 import { Session } from '../../components/Session'
@@ -39,6 +40,9 @@ export function Contact() {
 
   return (
     <>
+      <Helmet>
+        <title>Cassia Bernardo | Contact </title>
+      </Helmet>
       <Layout>
         <Session title="Enjoyed my work?" id="contact">
           <div className={styles.contact}>

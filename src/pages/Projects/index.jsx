@@ -1,5 +1,7 @@
 import styles from './Projects.module.css'
 
+import { Helmet } from 'react-helmet-async'
+
 import { Session } from '../../components/Session'
 import { Card } from '../../components/Card'
 import { Layout } from '../../components/Layout'
@@ -8,6 +10,9 @@ import { projects } from '../../data/projects'
 export function Projects() {
   return (
     <>
+      <Helmet>
+        <title>Cassia Bernardo | Projects </title>
+      </Helmet>
       <Layout>
         <Session title="Projects" id="projects">
           <div className={styles.cardsContainer}>

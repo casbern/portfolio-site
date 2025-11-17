@@ -1,11 +1,16 @@
 import styles from './Skills.module.css'
 
+import { Helmet } from 'react-helmet-async'
+
 import { Layout } from '../../components/Layout'
 import { Session } from '../../components/Session'
 
 export function Skills() {
   return (
     <>
+      <Helmet>
+        <title>Cassia Bernardo | Skills </title>
+      </Helmet>
       <Layout>
         <Session title="Skills" id="skills">
           <p>
