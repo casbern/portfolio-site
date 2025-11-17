@@ -3,18 +3,21 @@ import { TypeAnimation } from 'react-type-animation'
 import { Layout } from '../../components/Layout'
 import { Button } from '../../components/Button'
 
-import image from '../../assets/girl-coding.png'
+// import image from '../../assets/girl-coding.png'
 import cv from '../../assets/cv.pdf'
 
 import styles from './Home.module.css'
 import '../../global.css'
 
 export function Home() {
+  const Highlight = ({ children }) => (
+    <strong className={styles.highlight}>{children}</strong>
+  )
   return (
     <>
       <Layout>
         <div className={styles.hero}>
-          <img src={image} alt="Image of a girl coding" />
+          <img src="girl-coding.png" alt="Image of a girl coding" />
 
           <div className={styles.heroInfo}>
             {/* <h1>Hello, nice to meet you here!</h1> */}
@@ -33,13 +36,13 @@ export function Home() {
               repeat={Infinity}
             />
             <p>
-              Junior Web Developer with a passion for transforming ideas into
-              engaging, responsive interfaces.
-              <br />
-              Skilled in <strong>React</strong>, <strong>HTML</strong>,{' '}
-              <strong>CSS</strong>, and <strong>JavaScript</strong>, with
-              experience in additional tools and technologies to create seamless
-              user experiences.
+              <Highlight>Full Stack Developer</Highlight> skilled in building
+              modern web applications with <Highlight>React, Next.js</Highlight>
+              , and <Highlight>TypeScript</Highlight> on the frontend, and{' '}
+              <Highlight>Node.js, Express</Highlight>, and{' '}
+              <Highlight>PostgreSQL</Highlight> on the backend.
+              <br /> I focus on creating scalable, user-centered solutions with
+              clean code and attention to both performance and user experience.
             </p>
 
             <div className={styles.buttons}>

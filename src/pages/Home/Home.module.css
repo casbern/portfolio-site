@@ -27,6 +27,10 @@
 	font-size: 1.6rem;
 }
 
+.heroInfo .highlight {
+	color: var(--pink-200);
+}
+
 .buttons {
 	display: flex;
 	flex-direction: column;
